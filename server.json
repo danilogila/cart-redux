@@ -1,0 +1,114 @@
+{
+    "stock": [
+      {
+        "id": 1,
+        "amount": 3
+      },
+      {
+        "id": 2,
+        "amount": 5
+      },
+      {
+        "id": 3,
+        "amount": 2
+      },
+      {
+        "id": 4,
+        "amount": 1
+      },
+      {
+        "id": 5,
+        "amount": 5
+      },
+      {
+        "id": 6,
+        "amount": 10
+      },
+      {
+        "id": 7,
+        "amount": 9
+      },
+      {
+        "id": 8,
+        "amount": 11
+      },
+      {
+        "id": 9,
+        "amount": 2
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "title": "White Tropical Palm Print Shorts",
+        "price": 179.9,
+        "size": "S",
+        "color": "white",
+        "image": "https://media3.newlookassets.com/i/newlook/650163019.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Flap-pocket suede jacket",
+        "price": 149.9,
+        "size": "L",
+        "color": "white",
+        "image": "https://st.mngbcn.com/rcs/pics/static/T6/fotos/S20/67094763_CG.jpg?ts=1582117454922&imwidth=428&imdensity=1"
+      },
+      {
+        "id": 3,
+        "title": "Technical fabric bomber jacket",
+        "price": 249.9,
+        "size": "L",
+        "color": "white",
+        "image": "https://st.mngbcn.com/rcs/pics/static/T6/fotos/S20/67065905_37.jpg?ts=1581084269566&imwidth=428&imdensity=1"
+      },
+      {
+        "id": 4,
+        "title": "Technical fabric bomber jacket",
+        "price": 249.9,
+        "size": "L",
+        "color": "white",
+        "image": "https://st.mngbcn.com/rcs/pics/static/T6/fotos/S20/67065905_37.jpg?ts=1581084269566&imwidth=428&imdensity=1"
+      },
+      {
+        "id": 5,
+        "title": "Zipper Napa biker jacket",
+        "size": "M",
+        "price": 119.9,
+        "color": "white",
+        "image": "https://st.mngbcn.com/rcs/pics/static/T6/fotos/S20/67060511_32.jpg?ts=1574760842844&imwidth=428&imdensity=1"
+      },
+      {
+        "id": 6,
+        "title": "Dark wash denim jacket",
+        "price": 219.9,
+        "size": "XXL",
+        "color": "white",
+        "image": "https://st.mngbcn.com/rcs/pics/static/T6/fotos/S20/67052878_TO.jpg?ts=1575990243808&imwidth=428&imdensity=1"
+      },
+      {
+        "id": 7,
+        "title": "Suede overshirt",
+        "size": "XL",
+        "price": 219.9,
+        "color": "white",
+        "image": "https://st.mngbcn.com/rcs/pics/static/T6/fotos/S20/67055133_08.jpg?ts=1582117454922&imwidth=428&imdensity=1"
+      },
+      {
+        "id": 8,
+        "title": "Cotton pajama pack",
+        "size": "M",
+        "price": 49.9,
+        "color": "white",
+        "image": "https://st.mngbcn.com/rcs/pics/static/T6/fotos/S20/67050585_56.jpg?ts=1579701842109&imwidth=428&imdensity=1"
+      },
+      {
+        "id": 9,
+        "title": "Printed boxer 2 pack",
+        "size": "L",
+        "price": 39.9,
+        "color": "white",
+        "image": "https://st.mngbcn.com/rcs/pics/static/T6/fotos/S20/67050585_56.jpg?ts=1579701842109&imwidth=428&imdensity=1"
+      }
+    ]
+  }
