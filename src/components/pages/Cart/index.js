@@ -14,6 +14,12 @@ function Cart({cart, dispatch}) {
        dispatch(CartActions.updateAmount(product.id, product.amount - 1))
     }
 
+    function calculateTotalPrice(products){
+        return products.reduce((total, atual) => (
+            total + (atual.price * atual.amount)
+        ), 0)
+    }
+
     return (
         <Container>
             <ProductTable>
@@ -53,11 +59,11 @@ function Cart({cart, dispatch}) {
                             </div>
                         </td>
                         <td>
-                            <strong>R$121212</strong>
+                            <strong>R${(product.price * product.amount).toFixed(2)}</strong>
                         </td>
                         <td>
                             <button type="button" onClick={() => dispatch(CartActions.removeFromCart(product.id))}>
-                                <MdDelete size={20} color="#7159c1"/>
+                                <MdDelete size={20} color="#ff7f7f"/>
                             </button>
                         </td>
                     </tr>
@@ -70,7 +76,8 @@ function Cart({cart, dispatch}) {
                 </button>
                 <Total>
                     <span>Total</span>
-                    <strong>R$ 111111</strong>
+                    <strong>R$ {calculateTotalPrice(cart).toFixed(2)}
+                    </strong>
                 </Total>
             </footer>
         </Container>

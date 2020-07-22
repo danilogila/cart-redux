@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import { MdShoppingCart } from 'react-icons/md'
+import { FaShoppingBag } from 'react-icons/fa'
 import { connect } from 'react-redux'
 
 import { Container, Cart } from './styles';
@@ -18,7 +18,7 @@ function Header({cart}) {
                     <span>{cart.length} items</span>
                 </div>
 
-                <MdShoppingCart size={36} color="#333" />
+                <FaShoppingBag size={36} color="#333" />
             </Cart>
         </Container>
     );
